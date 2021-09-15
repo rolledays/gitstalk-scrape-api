@@ -8,7 +8,7 @@ axios.get(`https://api.github.com/users/${play}`).then((data) => {
 const {data : { avatar_url, url, name, bio, created_at, updated_at, type, login, subscriptions_url, followers_url, organizations_url, repos_url, public_repos, following, followers } } = data
              resolve({
 owner: "Aditia",
-status: 'success',
+info: 'Gw ganteng dan gw bangga',
 result: {
 	username: login,
 	followers_url: followers_url,
